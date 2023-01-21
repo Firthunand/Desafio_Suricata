@@ -1,0 +1,48 @@
+body *{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+/*Barra de navegacion*/
+nav{
+    background-color: #E83E8C;
+
+}
+.text-nav a{
+    color: #fff;
+}
+
+.text-nav button{
+    color: #fff;
+}
+
+/*Galeria de nuestros Productos*/
+.titulo{
+    color:#707070;
+
+    
+}
+
+/*Seccion iconos*/
+
+.icon-seccion{
+    background-color: #17A2B8 ;
+    color: #fff
+}
+@media only screen and (max-width: 753px) {
+    .icon-seccion {
+      display: none;
+    }
+  }
+
+/*footer*/
+
+footer{
+    background-color: #E83E8C;
+}
